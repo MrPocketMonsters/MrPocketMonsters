@@ -102,7 +102,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 ---
 
 <a id="languages"></a>
-## Languages {#languages}
+## Languages
 
 - **Spanish:** Native
  - **English:** C1 — EF SET certificate ([verify](https://cert.efset.org/en/2PD38G))
@@ -110,7 +110,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 ---
 
 <a id="stats"></a>
-## GitHub stats {#stats}
+## GitHub stats
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MrPocketMonsters&layout=compact)
 
