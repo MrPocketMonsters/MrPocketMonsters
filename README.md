@@ -36,6 +36,7 @@
 - [GitHub stats](#stats)
 
 ---
+<a id="professional-summary"></a>
 ## Professional summary
 
 I build reliable, maintainable backend systems, data pipelines and production APIs. I design normalized relational schemas and efficient SQL for OLTP and reporting workloads, implement ETL pipelines (APIs, Pandas, NumPy) for data ingestion and preprocessing, and prototype ML models using scikit-learn and Keras for research and product features. I focus on pragmatic architectures, observability, automated testing and containerized deployments to deliver predictable results.
@@ -49,6 +50,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 
 ---
 
+<a id="core-skills"></a>
 ## Core skills
 
 - **Backend:** Java (Spring Boot), Python (FastAPI), Node.js (Express)
@@ -60,6 +62,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 
 ---
 
+<a id="selected-achievements"></a>
 ## Selected achievements
 
 - **Led cross-team delivery:** Coordinated multiple teams, defined service boundaries and ensured on-time delivery of core features (scheduling, locations, UI).
@@ -71,6 +74,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 
 ---
 
+<a id="highlighted-projects"></a>
 ## Highlighted projects
 
  - **Health Promoting Entity (EPS) Management Platform** — Capstone project (13 developers). Coordinated technologies and tasks across four teams and led the Service Providing Institutions (IPS) team (schedules, rooms, doctors). Implemented the normalized PostgreSQL schema, complete JPA model, dockerized the backend module and implemented JWT-based authentication. Stack: React, Spring Boot, PostgreSQL, Docker. Repo: https://github.com/EdwinGuevarahub/Ingenieria-de-software-II-EPS
@@ -79,7 +83,8 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 
 ---
 
-## Contact & availability {#contact}
+<a id="contact"></a>
+## Contact & availability
 
 - **Open to:** Full‑time roles — Remote, or on‑site in Bogotá, Colombia.
 - **Email:** <ndsabogalv@gmail.com>
@@ -87,6 +92,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 
 ---
 
+<a id="how-i-work"></a>
 ## How I work
 
 - Deliver tested, documented code and well-defined APIs.
@@ -95,6 +101,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 
 ---
 
+<a id="languages"></a>
 ## Languages {#languages}
 
 - **Spanish:** Native
@@ -102,6 +109,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 
 ---
 
+<a id="stats"></a>
 ## GitHub stats {#stats}
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MrPocketMonsters&layout=compact)

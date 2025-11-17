@@ -37,6 +37,7 @@
 - [Estadísticas de GitHub](#stats)
 
 ---
+<a id="professional-summary"></a>
 ## Resumen profesional
 
 Construyo sistemas backend fiables y mantenibles, pipelines de datos y APIs de producción. Diseño esquemas relacionales normalizados y SQL eficiente para cargas OLTP y de reporting, implemento pipelines ETL (APIs, Pandas, NumPy) para ingestión y preprocesamiento de datos, y prototipo modelos de ML usando scikit-learn y Keras para investigación y características de producto. Me enfoco en arquitecturas pragmáticas, observabilidad, pruebas automatizadas y despliegues en contenedores para entregar resultados predecibles.
@@ -50,6 +51,7 @@ Construyo sistemas backend fiables y mantenibles, pipelines de datos y APIs de p
 
 ---
 
+<a id="core-skills"></a>
 ## Competencias principales
 
 - **Backend:** Java (Spring Boot), Python (FastAPI), Node.js (Express)
@@ -61,6 +63,7 @@ Construyo sistemas backend fiables y mantenibles, pipelines de datos y APIs de p
 
 ---
 
+<a id="selected-achievements"></a>
 ## Logros seleccionados
 
 - **Lideré entregas inter-equipos:** Coordiné múltiples equipos, definí límites de servicios y aseguré la entrega a tiempo de funcionalidades centrales (horarios, ubicaciones, UI).
@@ -72,6 +75,7 @@ Construyo sistemas backend fiables y mantenibles, pipelines de datos y APIs de p
 
 ---
 
+<a id="highlighted-projects"></a>
 ## Proyectos destacados
 
  - **Plataforma Administrativa para Entidades Promotoras de Salud (EPS)** — Proyecto de grado (13 desarrolladores). Coordiné tecnologías y tareas entre cuatro equipos y lideré el equipo de Instituciones Prestadoras de Salud (IPS) (horarios, salas, doctores). Implementé el esquema normalizado en PostgreSQL, el modelo JPA completo, dockericé el aplicativo e implementé autenticación basada en JWT. Stack: React, Spring Boot, PostgreSQL, Docker. Repo: https://github.com/EdwinGuevarahub/Ingenieria-de-software-II-EPS
@@ -80,7 +84,8 @@ Construyo sistemas backend fiables y mantenibles, pipelines de datos y APIs de p
 
 ---
 
-## Contacto y disponibilidad {#contact}
+<a id="contact"></a>
+## Contacto y disponibilidad
 
 - **Open to:** Roles a tiempo completo — Remoto, o presencial en Bogotá, Colombia.
 - **Email:** <ndsabogalv@gmail.com>
@@ -88,6 +93,7 @@ Construyo sistemas backend fiables y mantenibles, pipelines de datos y APIs de p
 
 ---
 
+<a id="how-i-work"></a>
 ## Cómo trabajo
 
 - Entrego código probado, documentado y APIs bien definidas.
@@ -96,14 +102,16 @@ Construyo sistemas backend fiables y mantenibles, pipelines de datos y APIs de p
 
 ---
 
-## Idiomas {#languages}
+<a id="languages"></a>
+## Idiomas
 
 - **Español:** Nativo
  - **Inglés:** C1 — Certificado EF SET ([verificar](https://cert.efset.org/en/2PD38G))
 
 ---
 
-## Estadísticas de GitHub {#stats}
+<a id="stats"></a>
+## Estadísticas de GitHub
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MrPocketMonsters&layout=compact)
 
