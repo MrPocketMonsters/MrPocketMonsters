@@ -10,7 +10,7 @@
 		</td>
 		<td valign="middle">
 			<strong style="font-size:18px">Nicolás Sabogal</strong><br/>
-			Ingeniero en Computación<br/>
+			Ingeniero de Sistemas<br/>
 			<br/>
 			<a href="mailto:ndsabogalv@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-ndsabogalv@gmail.com-blue?style=flat&logo=gmail&logoColor=white"/></a>
 			<a href="https://www.linkedin.com/in/ndsabogalv/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-ndsabogalv-blue?style=flat&logo=linkedin&logoColor=white"/></a>
