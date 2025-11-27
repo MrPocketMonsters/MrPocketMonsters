@@ -68,7 +68,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 - **Led cross-team delivery:** Coordinated multiple teams, defined service boundaries and ensured on-time delivery of core features (scheduling, locations, UI).
 - **Relational modeling & implementation:** Translated an ER diagram into a normalized PostgreSQL relational schema, implemented the schema in PostgreSQL and implemented the JPA data model to enforce data integrity and simplify transactional queries.
 - **Reliable data ingestion & ETL:** Implemented a FastAPI/WebSocket receiver that validates, normalizes and persists PPG timeseries, producing CSV artifacts and ETL outputs for downstream analysis.
-- **ML support & data readiness:** Prepared cleaned datasets, performed feature engineering and built evaluation pipelines used in AFib detection experiments.
+- **ML Model Deployment & Signal Processing:** Developed a window-based AFib classifier using hybrid Keras/TensorFlow models that processes full PPG signals. Implemented automatic frequency detection, resampling, and robust normalization pipelines to handle diverse wearable data sources.
 - **Developer productivity & reproducibility:** Dockerized backend components and adapted a Dockerized Node.js starter with live-reload to speed onboarding and ensure reproducible developer environments.
 - **Security & API hygiene:** Applied JWT authentication, consistent error handling, versioning and observability hooks to improve service maintainability and security.
 
@@ -78,7 +78,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 ## Highlighted projects
 
  - **Health Promoting Entity (EPS) Management Platform** — Capstone project (13 developers). Coordinated technologies and tasks across four teams and led the Service Providing Institutions (IPS) team (schedules, rooms, doctors). Implemented the normalized PostgreSQL schema, complete JPA model, dockerized the backend module and implemented JWT-based authentication. Stack: React, Spring Boot, PostgreSQL, Docker. Repo: https://github.com/EdwinGuevarahub/Ingenieria-de-software-II-EPS
-- **PPG Data Receiver API** — End-to-end FastAPI receiver for wearable PPG timeseries with WebSocket-powered frontend visualization (ChartJs). Stores validated and delta decoded timeseries as CSV and includes ETL steps (Pandas/NumPy) to produce training-ready artifacts for AFib research. Stack: FastAPI, WebSocket, Pandas, ChartJs. Repo: https://github.com/MrPocketMonsters/PPGDataReceiverAPI
+- **PPG Data Receiver & AF Classifier** — End-to-end system for wearable PPG ingestion and analysis. Features a FastAPI/WebSocket receiver for real-time visualization and classification of received signals using hybrid Keras/TensorFlow models. The system handles automatic resampling, signal filtering (Butterworth), and window-based AFib/Sinus Rhythm classification with confidence scoring. Stack: FastAPI, TensorFlow/Keras, Pandas, NumPy. Repo: https://github.com/MrPocketMonsters/PPGDataReceiverAPI
 - **Node API Starter** — Dockerized Express starter optimized for rapid API development and reproducible local environments; supports live-reload for developer productivity (designed to plug ETL/data-ingest hooks). Stack: Node.js, Express, Docker. Repo: https://github.com/MrPocketMonsters/node_api
 
 ---
