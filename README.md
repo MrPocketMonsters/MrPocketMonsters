@@ -23,9 +23,10 @@
 
 > I help teams ship production-ready backend systems and business applications that streamline operations, improve reporting, and support everyday administrative workflows.
 
-**Keywords:** Backend Engineer · Production APIs · Microservices · Database Design · Relational Schema · ETL Pipelines · Data Engineering · Machine Learning · Model Prototyping · Observability · Docker · CI/CD
+**Keywords:** Backend Engineer · Production APIs · Serverless · Infrastructure as Code · Terraform · CI/CD · Database Design · ETL Pipelines · Machine Learning · Observability · Docker
 
 ## Table of contents
+
 - [Professional summary](#professional-summary)
 - [Core skills](#core-skills)
 - [Selected achievements](#selected-achievements)
@@ -36,36 +37,42 @@
 - [GitHub stats](#stats)
 
 ---
+
 <a id="professional-summary"></a>
+
 ## Professional summary
 
-I build reliable, maintainable backend systems, data pipelines and production APIs. I design normalized relational schemas and efficient SQL for OLTP and reporting workloads, implement ETL pipelines (APIs, Pandas, NumPy) for data ingestion and preprocessing, and prototype ML models using scikit-learn and Keras for research and product features. I focus on pragmatic architectures, observability, automated testing and containerized deployments to deliver predictable results.
+I build reliable, maintainable backend systems, serverless data pipelines, and production APIs. I design normalized relational and NoSQL schemas, implement robust CI/CD pipelines with Infrastructure as Code (Terraform), and develop scalable ETL processes for data-driven applications. I focus on pragmatic architectures, observability, and automated testing (achieving up to 95% coverage) to deliver predictable, high-quality results.
 
-**Seeking:** Backend Engineer; Database Designer; Data/ETL Engineer; Machine Learning Engineer.
+**Seeking:** Backend Engineer; Data Engineer; DevOps/Cloud Engineer; Database Designer.
 
-- **Backend Engineer:** Build and maintain production APIs and services with focus on reliability and observability.
-- **Database Designer:** Design normalized relational schemas and optimize queries for transactional and reporting use cases.
-- **Data / ETL Engineer:** Implement robust ingestion and ETL pipelines that prepare validated datasets for analytics and ML.
+- **Backend & Serverless Engineer:** Build and maintain production APIs and serverless functions with focus on reliability and observability.
+- **Data / ETL Engineer:** Implement robust ingestion and ETL pipelines that prepare validated datasets for analytics and ML, leveraging serverless architectures for scalability.
+- **DevOps & Infrastructure:** Implement CI/CD pipelines and Infrastructure as Code (Terraform) to automate deployments and ensure environment parity.
+- **Database Designer:** Design normalized relational and NoSQL schemas, optimizing queries for transactional and reporting use cases.
 - **Machine Learning Engineer:** Prototype models and produce training-ready datasets to turn research into product features.
 
 ---
 
 <a id="core-skills"></a>
+
 ## Core skills
 
-- **Backend:** Java (Spring Boot), Python (FastAPI), Node.js (Express)
-- **Databases & Modeling:** PostgreSQL, relational schema design, normalization, indexing and query optimization
+- **Backend:** Java (Spring Boot), Python (FastAPI, AWS Lambda), Node.js (Express)
+- **Databases & Modeling:** PostgreSQL, DynamoDB, relational schema design, normalization, indexing and query optimization
 - **Data & ETL:** ETL pipelines, data ingestion (APIs, WebSocket), Pandas, NumPy, data cleaning and transformations
 - **Machine Learning:** prototyping with scikit-learn, Keras; feature engineering and data preprocessing
-- **Infrastructure:** Docker, CI/CD, containers-as-dev-environment
-- **Practices:** API design, automated tests, observability, lightweight architecture
+- **Infrastructure:** Terraform, AWS (S3, Lambda, API Gateway), LocalStack, Docker, GitHub Actions CI/CD
+- **Practices:** API design, automated tests (unit, integration, E2E, coverage), observability, lightweight architecture
 
 ---
 
 <a id="selected-achievements"></a>
+
 ## Selected achievements
 
 - **Led cross-team delivery:** Coordinated multiple teams, defined service boundaries and ensured on-time delivery of core features (scheduling, locations, UI).
+- **CI/CD & Infrastructure as Code:** Engineered a serverless-friendly Python application with a full CI/CD pipeline (GitHub Actions) and Infrastructure as Code (Terraform). Achieved ~95% test coverage across unit, integration, and E2E tests, enforcing strict quality gates.
 - **Relational modeling & implementation:** Translated an ER diagram into a normalized PostgreSQL relational schema, implemented the schema in PostgreSQL and implemented the JPA data model to enforce data integrity and simplify transactional queries.
 - **Reliable data ingestion & ETL:** Implemented a FastAPI/WebSocket receiver that validates, normalizes and persists PPG timeseries, producing CSV artifacts and ETL outputs for downstream analysis.
 - **ML Model Deployment & Signal Processing:** Developed a window-based AFib classifier using hybrid Keras/TensorFlow models that processes full PPG signals. Implemented automatic frequency detection, resampling, and robust normalization pipelines to handle diverse wearable data sources.
@@ -75,8 +82,10 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 ---
 
 <a id="highlighted-projects"></a>
+
 ## Highlighted projects
 
+- **PyKata CI/CD Showcase** — Serverless-friendly Python application for browsing and executing coding katas. Implemented a complete CI/CD pipeline with GitHub Actions, Infrastructure as Code with Terraform (AWS/LocalStack), and achieved ~95% test coverage. Features FastAPI for local development and AWS Lambda for production. Stack: Python (FastAPI, Lambda), Terraform, GitHub Actions, LocalStack, DynamoDB, S3. Repo: https://github.com/MrPocketMonsters/pykata
  - **Health Promoting Entity (EPS) Management Platform** — Capstone project (13 developers). Coordinated technologies and tasks across four teams and led the Service Providing Institutions (IPS) team (schedules, rooms, doctors). Implemented the normalized PostgreSQL schema, complete JPA model, dockerized the backend module and implemented JWT-based authentication. Stack: React, Spring Boot, PostgreSQL, Docker. Repo: https://github.com/EdwinGuevarahub/Ingenieria-de-software-II-EPS
 - **PPG Data Receiver & AF Classifier** — End-to-end system for wearable PPG ingestion and analysis. Features a FastAPI/WebSocket receiver for real-time visualization and classification of received signals using hybrid Keras/TensorFlow models. The system handles automatic resampling, signal filtering (Butterworth), and window-based AFib/Sinus Rhythm classification with confidence scoring. Stack: FastAPI, TensorFlow/Keras, Pandas, NumPy. Repo: https://github.com/MrPocketMonsters/PPGDataReceiverAPI
 - **Node API Starter** — Dockerized Express starter optimized for rapid API development and reproducible local environments; supports live-reload for developer productivity (designed to plug ETL/data-ingest hooks). Stack: Node.js, Express, Docker. Repo: https://github.com/MrPocketMonsters/node_api
@@ -84,15 +93,17 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 ---
 
 <a id="contact"></a>
+
 ## Contact & availability
 
-- **Open to:** Full‑time roles — Remote, or on‑site in Bogotá, Colombia.
+- **Open to:** Part‑time roles — Remote, or on‑site in Bogotá, Colombia.
 - **Email:** <ndsabogalv@gmail.com>
 - **LinkedIn:** https://www.linkedin.com/in/ndsabogalv/
 
 ---
 
 <a id="how-i-work"></a>
+
 ## How I work
 
 - Deliver tested, documented code and well-defined APIs.
@@ -102,6 +113,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 ---
 
 <a id="languages"></a>
+
 ## Languages
 
 - **Spanish:** Native
@@ -110,6 +122,7 @@ I build reliable, maintainable backend systems, data pipelines and production AP
 ---
 
 <a id="stats"></a>
+
 ## GitHub stats
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MrPocketMonsters&layout=compact)
